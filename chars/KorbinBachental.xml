@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
+<helden Version="5.5.2">
+    <held key="1480786827753" name="Korbin Bachental" stand="1480789697340">
+        <mods/>
+        <basis>
+            <geschlecht name="männlich"/>
+            <settings name="DSA4.1"/>
+            <rasse name="helden.model.rasse.Mittellaender" string="Mittelländer">
+                <groesse gewicht="80" value="180"/>
+                <aussehen alter="23" augenfarbe="braun" aussehentext0="" aussehentext1="" aussehentext2=""
+                          aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3=""
+                          familietext4="" familietext5="" gbjahr="1003" gbmonat="4" gbtag="28" gprest="0" gpstart="110"
+                          haarfarbe="braun" kalender="Bosparans Fall" stand="" titel=""/>
+            </rasse>
+            <kultur name="helden.model.kultur.Garetien" string="Mittelländische Städte"/>
+            <ausbildungen>
+                <ausbildung art="Hauptprofession" name="helden.model.profession.Handwerker"
+                            string="Handwerker, Bogenbauer/Armbruster" tarnidentitaet="">
+                    <variante name="Handwerker"/>
+                    <variante name="Bogenbauer/Armbruster"/>
+                </ausbildung>
+                <ausbildung art="BGB" name="helden.model.profession.Grosswildjaeger"
+                            string="Großwildjäger: Kopfgeldjäger">
+                    <variante name="Kopfgeldjäger"/>
+                </ausbildung>
+            </ausbildungen>
+            <verify value="1"/>
+            <notiz notiz0="Notizen" notiz1="" notiz10="" notiz11="" notiz2="" notiz3="" notiz4="" notiz5="" notiz6=""
+                   notiz7="" notiz8="" notiz9=""/>
+            <portraet value=""/>
+            <abenteuerpunkte value="1500"/>
+            <freieabenteuerpunkte value="0"/>
+        </basis>
+        <eigenschaften>
+            <eigenschaft mod="0" name="Mut" startwert="13" value="13"/>
+            <eigenschaft mod="0" name="Klugheit" startwert="12" value="12"/>
+            <eigenschaft mod="0" name="Intuition" startwert="13" value="13"/>
+            <eigenschaft mod="0" name="Charisma" startwert="10" value="10"/>
+            <eigenschaft mod="0" name="Fingerfertigkeit" startwert="14" value="14"/>
+            <eigenschaft mod="0" name="Gewandtheit" startwert="12" value="12"/>
+            <eigenschaft mod="0" name="Konstitution" startwert="12" value="12"/>
+            <eigenschaft mod="0" name="Körperkraft" startwert="14" value="14"/>
+            <eigenschaft mod="0" name="Sozialstatus" startwert="5" value="5"/>
+            <eigenschaft mod="10" name="Lebensenergie" value="0"/>
+            <eigenschaft mod="16" name="Ausdauer" value="0"/>
+            <eigenschaft grossemeditation="0" mod="0" mrmod="-4" name="Astralenergie" value="0"/>
+            <eigenschaft karmalqueste="0" mod="0" name="Karmaenergie" value="0"/>
+            <eigenschaft mod="-4" name="Magieresistenz" value="0"/>
+            <eigenschaft mod="0" name="ini" value="10"/>
+            <eigenschaft mod="0" name="at" value="8"/>
+            <eigenschaft mod="0" name="pa" value="8"/>
+            <eigenschaft mod="0" name="fk" value="8"/>
+        </eigenschaften>
+        <vt>
+            <vorteil name="Ausdauernd" value="6"/>
+            <vorteil name="Besonderer Besitz" value="Stufe 1"/>
+            <vorteil name="Breitgefächerte Bildung"/>
+            <vorteil name="Eisern"/>
+            <vorteil name="Innerer Kompass"/>
+            <vorteil name="Arroganz" value="7"/>
+            <vorteil name="Goldgier" value="11"/>
+            <vorteil name="Schlafstörungen" value="1"/>
+            <vorteil name="Sucht" value="Vierblättrige Einbeere (10)"/>
+            <vorteil name="Verschwendungssucht" value="5"/>
+        </vt>
+        <sf>
+            <sonderfertigkeit name="Aufmerksamkeit"/>
+            <sonderfertigkeit name="Auspendeln"/>
+            <sonderfertigkeit name="Beinarbeit"/>
+            <sonderfertigkeit name="Betäubungsschlag"/>
+            <sonderfertigkeit name="Block"/>
+            <sonderfertigkeit name="Dschungelkundig"/>
+            <sonderfertigkeit name="Eisenarm"/>
+            <sonderfertigkeit name="Finte"/>
+            <sonderfertigkeit name="Fußfeger"/>
+            <sonderfertigkeit name="Griff"/>
+            <sonderfertigkeit name="Halten"/>
+            <sonderfertigkeit name="Klammer"/>
+            <sonderfertigkeit name="Knaufschlag"/>
+            <sonderfertigkeit name="Knie"/>
+            <sonderfertigkeit name="Kopfstoß"/>
+            <sonderfertigkeit name="Kulturkunde">
+                <kultur name="Mittelreich"/>
+            </sonderfertigkeit>
+            <sonderfertigkeit name="Meister der Improvisation"/>
+            <sonderfertigkeit name="Niederringen"/>
+            <sonderfertigkeit name="Ortskenntnis">
+                <auswahl name="Stadtteil/Kleinstadt"/>
+                <auswahl name="Stadtviertel oder Ort"/>
+            </sonderfertigkeit>
+            <sonderfertigkeit name="Scharfschütze">
+                <talent name="Armbrust"/>
+            </sonderfertigkeit>
+            <sonderfertigkeit name="Schmutzige Tricks"/>
+            <sonderfertigkeit name="Schnellladen">
+                <talent name="Armbrust"/>
+            </sonderfertigkeit>
+            <sonderfertigkeit name="Schwinger"/>
+            <sonderfertigkeit name="Schwitzkasten"/>
+            <sonderfertigkeit name="Sprung"/>
+            <sonderfertigkeit name="Talentspezialisierung Bogenbau (Armbrust)">
+                <talent name="Bogenbau"/>
+                <spezialisierung name="Armbrust"/>
+            </sonderfertigkeit>
+            <sonderfertigkeit name="Tritt"/>
+            <sonderfertigkeit name="Versteckte Klinge"/>
+            <sonderfertigkeit name="Waffenloser Kampfstil: Mercenario"/>
+            <sonderfertigkeit name="Waldkundig"/>
+            <sonderfertigkeit name="Wuchtschlag"/>
+            <sonderfertigkeit name="Wurf"/>
+            <verbilligtesonderfertigkeit name="Talentspezialisierung" talent="Schleuder">
+                <auswahl auswahl="Fledermaus"/>
+            </verbilligtesonderfertigkeit>
+        </sf>
+        <ereignisse>
+            <ereignis obj="max GP für Helden: 110" text="EINSTELLUNG" time="1480786847826" version="HS 5.5.2"/>
+            <ereignis obj="max Eigenschafts-GP für Helden: 100" text="EINSTELLUNG" time="1480786847826"
+                      version="HS 5.5.2"/>
+            <ereignis obj="max Eigenschafts-Wert für Helden: 14" text="EINSTELLUNG" time="1480786847826"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Rasse: Mittelländer" text="RKP" time="1480786847827"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Kultur: Mittelländische Städte" text="RKP"
+                      time="1480786847827" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="1 GP" obj="Profession: Handwerker, Bogenbauer/Armbruster" text="RKP"
+                      time="1480786847827" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="20 GP" obj="Breitgefächerte Bildung: Großwildjäger: Kopfgeldjäger"
+                      text="RKP" time="1480786847827" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="13" kommentar="13 GP" obj="Mut: 13" text="EIGENSCHAFTEN" time="1480786847827"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="12" kommentar="12 GP" obj="Klugheit: 12" text="EIGENSCHAFTEN" time="1480786847827"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="13" kommentar="13 GP" obj="Intuition: 13" text="EIGENSCHAFTEN" time="1480786847827"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="10" kommentar="10 GP" obj="Charisma: 10" text="EIGENSCHAFTEN" time="1480786847827"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="14" kommentar="14 GP" obj="Fingerfertigkeit: 14" text="EIGENSCHAFTEN"
+                      time="1480786847827" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="12" kommentar="12 GP" obj="Gewandtheit: 12" text="EIGENSCHAFTEN" time="1480786847827"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="12" kommentar="12 GP" obj="Konstitution: 12" text="EIGENSCHAFTEN"
+                      time="1480786847827" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="14" kommentar="14 GP" obj="Körperkraft: 14" text="EIGENSCHAFTEN" time="1480786847827"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="0 GP" obj="Sozialstatus: 5" text="EIGENSCHAFTEN" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="13 AP" obj="Armbrust: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="17 AP" obj="Armbrust: 5" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="6" kommentar="21 AP" obj="Armbrust: 6" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="7" kommentar="25 BGB" obj="Armbrust: 7" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="8" kommentar="29 BGB" obj="Armbrust: 8" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="9" kommentar="34 BGB" obj="Armbrust: 9" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="10" kommentar="38 BGB" obj="Armbrust: 10" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="12 AP" obj="Hiebwaffen: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="17 AP" obj="Hiebwaffen: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="22 BGB" obj="Hiebwaffen: 5" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="6" kommentar="27 BGB" obj="Hiebwaffen: 6" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="13 AP" obj="Raufen: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="17 AP" obj="Raufen: 5" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="6" kommentar="21 AP" obj="Raufen: 6" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="7" kommentar="25 AP" obj="Raufen: 7" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="8" kommentar="29 BGB" obj="Raufen: 8" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="9" kommentar="34 BGB" obj="Raufen: 9" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="10" kommentar="38 BGB" obj="Raufen: 10" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="12 AP" obj="Ringen: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="17 AP" obj="Ringen: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="22 BGB" obj="Ringen: 5" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="6" kommentar="27 BGB" obj="Ringen: 6" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="7" kommentar="33 BGB" obj="Ringen: 7" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="5 AP" obj="Schleuder: 0" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="4 AP" obj="Schleuder: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="9 BGB" obj="Schleuder: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="15 BGB" obj="Schleuder: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="21 BGB" obj="Schleuder: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="28 BGB" obj="Schleuder: 5" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="6" kommentar="34 BGB" obj="Schleuder: 6" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="2 AP" obj="Wurfmesser: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="3 AP" obj="Athletik: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="7 AP" obj="Athletik: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="3 AP" obj="Klettern: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="7 BGB" obj="Klettern: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="7 BGB" obj="Körperbeherrschung: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="12 BGB" obj="Körperbeherrschung: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="4 BGB" obj="Reiten: 0" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="3 BGB" obj="Reiten: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="7 BGB" obj="Reiten: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="3 BGB" obj="Schleichen: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="7 BGB" obj="Schleichen: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="3 AP" obj="Schwimmen: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="3 BGB" obj="Sich verstecken: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="7 BGB" obj="Sich verstecken: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="12 BGB" obj="Sich verstecken: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="7 BGB" obj="Sinnenschärfe: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="12 BGB" obj="Sinnenschärfe: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="17 BGB" obj="Sinnenschärfe: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="22 BGB" obj="Sinnenschärfe: 5" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="12 AP" obj="Zechen: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="17 AP" obj="Zechen: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="22 AP" obj="Zechen: 5" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="6" kommentar="27 AP" obj="Zechen: 6" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="6 BGB" obj="Gassenwissen: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="8 BGB" obj="Gassenwissen: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="8 BGB" obj="Menschenkenntnis: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="8 BGB" obj="Überreden: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="2 AP" obj="Fährtensuchen: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="4 BGB" obj="Fährtensuchen: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="6 BGB" obj="Fährtensuchen: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="8 BGB" obj="Fährtensuchen: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="5" kommentar="11 BGB" obj="Fährtensuchen: 5" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="2 AP" obj="Orientierung: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="4 BGB" obj="Orientierung: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="6 BGB" obj="Orientierung: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="8 BGB" obj="Orientierung: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="1" kommentar="2 BGB" obj="Wildnisleben: 1" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="2" kommentar="4 BGB" obj="Wildnisleben: 2" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="6 BGB" obj="Wildnisleben: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="4 BGB" obj="Sprachen kennen Rogolan: 4" text="TALENT"
+                      time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="4 BGB" obj="Lesen/Schreiben Kusliker Zeichen: 4" text="TALENT"
+                      time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="3" kommentar="6 AP" obj="Kochen: 3" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="4" kommentar="8 BGB" obj="Kochen: 4" text="TALENT" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="2 GP" obj="Aufmerksamkeit" text="SF" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="100 BGB" obj="Betäubungsschlag" text="SF" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="3 GP" obj="Dschungelkundig" text="SF" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="4 GP" obj="Finte" text="SF" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="150 BGB" obj="Scharfschütze (Armbrust)" text="SF" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="200 AP" obj="Schnellladen (Armbrust)" text="SF" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="4 GP" obj="Waffenloser Kampfstil: Mercenario" text="SF"
+                      time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="50 BGB" obj="Waldkundig" text="SF" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="4 GP" obj="Wuchtschlag" text="SF" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="-7 GP" obj="Arroganz: 7" text="VORTEILE" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="3 GP" obj="Ausdauernd: 6" text="VORTEILE" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="5 GP" obj="Besonderer Besitz: Stufe 1" text="VORTEILE"
+                      time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Breitgefächerte Bildung" text="VORTEILE"
+                      time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="7 GP" obj="Eisern" text="VORTEILE" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="-11 GP" obj="Goldgier: 11" text="VORTEILE" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="7 GP" obj="Innerer Kompass" text="VORTEILE" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="-7 GP" obj="Schlafstörungen: 1" text="VORTEILE" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="-20 GP" obj="Sucht: Vierblättrige Einbeere (10)" text="VORTEILE"
+                      time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Alt="0" Neu="0" kommentar="-5 GP" obj="Verschwendungssucht: 5" text="VORTEILE"
+                      time="1480786847828" version="HS 5.5.2"/>
+            <ereignis obj="Auswahl" text="Talentspezialisierung Bogenbau (Armbrust)" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis obj="Auswahl" text="Talentspezialisierung Schleuder (Fledermaus)" time="1480786847828"
+                      version="HS 5.5.2"/>
+            <ereignis obj="Auswahl" text="Waldkundig" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis obj="Auswahl" text="Scharfschütze [Armbrust]" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="1" obj="Auswahl" text="Armbrust" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="3" obj="Auswahl" text="Sprachen kennen Rogolan" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="1" obj="Auswahl" text="Hauswirtschaft" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="2" obj="Auswahl" text="Armbrust" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="2" obj="Auswahl" text="Zweihandhiebwaffen" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="2" obj="Auswahl" text="Bogenbau" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="2" obj="Auswahl" text="Handel" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="2" obj="Auswahl" text="Holzbearbeitung" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="2" obj="Auswahl" text="Kochen" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="4" obj="Auswahl" text="Mechanik" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="4" obj="Auswahl" text="Pflanzenkunde" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="1" obj="Auswahl" text="Fahrzeug lenken" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="2" obj="Auswahl" text="Handel" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="4" obj="Auswahl" text="Armbrust" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="2" obj="Auswahl" text="Hiebwaffen" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="1" obj="Auswahl" text="Fahrzeug lenken" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="4" obj="Auswahl" text="Sprachen kennen Isdira" time="1480786847828" version="HS 5.5.2"/>
+            <ereignis Neu="4" obj="Auswahl" text="Sprachen kennen Rogolan" time="1480786847828" version="HS 5.5.2"/>
+        </ereignisse>
+        <talentliste>
+            <talent lernmethode="Gegenseitiges Lehren" name="Armbrust" probe=" (GE/FF/KK)" value="10"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Dolche" probe=" (GE/GE/KK)" value="2"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Hiebwaffen" probe=" (GE/GE/KK)" value="6"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Infanteriewaffen" probe=" (GE/GE/KK)" value="1"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Raufen" probe=" (GE/GE/KK)" value="10"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Ringen" probe=" (GE/GE/KK)" value="7"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Säbel" probe=" (GE/GE/KK)" value="0"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Schleuder" probe=" (GE/FF/KK)" value="6"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Wurfmesser" probe=" (GE/FF/KK)" value="1"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Zweihandhiebwaffen" probe=" (GE/GE/KK)" value="2"/>
+            <talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Athletik" probe=" (GE/KO/KK)" value="2"/>
+            <talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Klettern" probe=" (MU/GE/KK)" value="2"/>
+            <talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Körperbeherrschung" probe=" (MU/IN/GE)"
+                    value="3"/>
+            <talent be="BE-2" lernmethode="Gegenseitiges Lehren" name="Reiten" probe=" (CH/GE/KK)" value="2"/>
+            <talent be="BE" lernmethode="Gegenseitiges Lehren" name="Schleichen" probe=" (MU/IN/GE)" value="2"/>
+            <talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Schwimmen" probe=" (GE/KO/KK)" value="1"/>
+            <talent be="" lernmethode="Gegenseitiges Lehren" name="Selbstbeherrschung" probe=" (MU/KO/KK)" value="1"/>
+            <talent be="BE-2" lernmethode="Gegenseitiges Lehren" name="Sich verstecken" probe=" (MU/IN/GE)" value="3"/>
+            <talent be="BE-3" lernmethode="Gegenseitiges Lehren" name="Singen" probe=" (IN/CH/CH)" value="0"/>
+            <talent be="0-&gt;BE" lernmethode="Gegenseitiges Lehren" name="Sinnenschärfe" probe=" (KL/IN/IN)"
+                    value="5"/>
+            <talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Tanzen" probe=" (CH/GE/GE)" value="1"/>
+            <talent be="" lernmethode="Gegenseitiges Lehren" name="Zechen" probe=" (IN/KO/KK)" value="6"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Etikette" probe=" (KL/IN/CH)" value="2"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Gassenwissen" probe=" (KL/IN/CH)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Lehren" probe=" (KL/IN/CH)" value="2"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Menschenkenntnis" probe=" (KL/IN/CH)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Überreden" probe=" (MU/IN/CH)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Fährtensuchen" probe=" (KL/IN/KO)" value="5"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Orientierung" probe=" (KL/IN/IN)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Wildnisleben" probe=" (IN/GE/KO)" value="3"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Götter und Kulte" probe=" (KL/KL/IN)" value="3"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Heraldik" probe=" (KL/KL/FF)" value="1"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Mechanik" probe=" (KL/KL/FF)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Pflanzenkunde" probe=" (KL/IN/FF)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Rechnen" probe=" (KL/KL/IN)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Rechtskunde" probe=" (KL/KL/IN)" value="2"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Sagen und Legenden" probe=" (KL/IN/CH)" value="3"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Schätzen" probe=" (KL/IN/IN)" value="2"/>
+            <talent k="18" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Garethi" probe=" (KL/IN/CH)"
+                    value="10"/>
+            <talent k="21" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Rogolan" probe=" (KL/IN/CH)"
+                    value="4"/>
+            <talent k="10" lernmethode="Gegenseitiges Lehren" name="Lesen/Schreiben Kusliker Zeichen"
+                    probe=" (KL/KL/FF)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Bogenbau" probe=" (KL/IN/FF)" value="9"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Fahrzeug lenken" probe=" (IN/CH/FF)" value="1"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Handel" probe=" (KL/IN/CH)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Hauswirtschaft" probe=" (IN/CH/FF)" value="1"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Heilkunde: Wunden" probe=" (KL/CH/FF)" value="1"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Holzbearbeitung" probe=" (KL/FF/KK)" value="3"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Kochen" probe=" (KL/IN/FF)" value="4"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Lederarbeiten" probe=" (KL/FF/FF)" value="1"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Malen/Zeichnen" probe=" (KL/IN/FF)" value="1"/>
+            <talent lernmethode="Gegenseitiges Lehren" name="Schneidern" probe=" (KL/FF/FF)" value="0"/>
+        </talentliste>
+        <zauberliste/>
+        <kampf>
+            <kampfwerte name="Dolche">
+                <attacke value="9"/>
+                <parade value="9"/>
+            </kampfwerte>
+            <kampfwerte name="Hiebwaffen">
+                <attacke value="12"/>
+                <parade value="10"/>
+            </kampfwerte>
+            <kampfwerte name="Infanteriewaffen">
+                <attacke value="8"/>
+                <parade value="9"/>
+            </kampfwerte>
+            <kampfwerte name="Raufen">
+                <attacke value="15"/>
+                <parade value="11"/>
+            </kampfwerte>
+            <kampfwerte name="Ringen">
+                <attacke value="9"/>
+                <parade value="14"/>
+            </kampfwerte>
+            <kampfwerte name="Säbel">
+                <attacke value="8"/>
+                <parade value="8"/>
+            </kampfwerte>
+            <kampfwerte name="Zweihandhiebwaffen">
+                <attacke value="10"/>
+                <parade value="8"/>
+            </kampfwerte>
+        </kampf>
+        <gegenstände>
+            <gegenstand anzahl="1" name="Balihoer Wachsmantel" slot="0"/>
+            <gegenstand anzahl="1" name="Bolzen" slot="0"/>
+            <gegenstand anzahl="1" name="Bolzenköcher, Leder (10 Bolzen)" slot="0"/>
+            <gegenstand anzahl="1" name="Brotbeutel" slot="0"/>
+            <gegenstand anzahl="1" name="Dolch" slot="0">
+                <Fernkampfwaffe>
+                    <talente kampftalent="Wurfmesser"/>
+                </Fernkampfwaffe>
+            </gegenstand>
+            <gegenstand anzahl="1" name="Dolchscheide, versteckt" slot="0"/>
+            <gegenstand anzahl="1" name="Esel: Grautier" slot="0">
+                <modallgemein>
+                    <gewicht value="10000.0"/>
+                    <preis value="0"/>
+                    <name value="Hothumir"/>
+                </modallgemein>
+                <Wesen>
+                    <eigenschaften>
+                        <eigenschaft name="Ausdauer" value="5"/>
+                        <eigenschaft name="Gefahrenwert" value="5"/>
+                        <eigenschaft name="Geschwindigkeit" value="2.0"/>
+                        <eigenschaft name="Geschwindigkeit 2" value="6.0"/>
+                        <eigenschaft name="Konstitution" value="15"/>
+                        <eigenschaft name="Körperkraft" value="14"/>
+                        <eigenschaft name="Lebensenergie" value="40"/>
+                        <eigenschaft name="Loyalität" value="7"/>
+                        <eigenschaft name="Magieresistenz" value="1"/>
+                        <eigenschaft name="Magieresistenz 2" value="5"/>
+                        <eigenschaft name="Rüstungsschutz" value="1"/>
+                    </eigenschaften>
+                    <vorteile>
+                        <vorteil name="Ausdauernd (Tier)" value="Trab"/>
+                        <vorteil name="Eigenwillig"/>
+                        <vorteil name="Genügsam"/>
+                        <vorteil name="Guter Orientierungssinn"/>
+                        <vorteil name="Tragkraft" value="erhöht"/>
+                        <vorteil name="Trendeln"/>
+                        <vorteil name="Trittsicherheit"/>
+                        <vorteil name="Zäh"/>
+                    </vorteile>
+                    <sonderfertigkeiten>
+                        <sonderfertigkeit name="Gezielter Angriff"/>
+                        <sonderfertigkeit name="Niederwerfen (Tier)">
+                            <auswahl name="6"/>
+                        </sonderfertigkeit>
+                        <sonderfertigkeit name="Schrecksicher"/>
+                    </sonderfertigkeiten>
+                    <talente/>
+                    <zauber/>
+                    <ini mul="1" sum="7" w="6"/>
+                    <groesse value="120"/>
+                    <angriffe>
+                        <angriff name="Biss">
+                            <at value="8"/>
+                            <pa value="6"/>
+                            <tp mul="1" sum="0" w="6"/>
+                            <dk value="Handgemenge"/>
+                        </angriff>
+                        <angriff name="Tritt">
+                            <at value="8"/>
+                            <pa value="6"/>
+                            <tp mul="1" sum="1" w="6"/>
+                            <dk value="Nah"/>
+                        </angriff>
+                    </angriffe>
+                    <gattung value="Grautier/Langmähne"/>
+                    <familie value="Maultier"/>
+                    <wesensart value="Tier"/>
+                </Wesen>
+            </gegenstand>
+            <gegenstand anzahl="1" name="Fledermaus" slot="0">
+                <Fernkampfwaffe>
+                    <talente kampftalent="Schleuder"/>
+                </Fernkampfwaffe>
+            </gegenstand>
+            <gegenstand anzahl="1" name="Geldbeutel, Leder" slot="0"/>
+            <gegenstand anzahl="1" name="Hammer" slot="0"/>
+            <gegenstand anzahl="1" name="Handbeil, leicht" slot="0"/>
+            <gegenstand anzahl="1" name="Haumesser" slot="0"/>
+            <gegenstand anzahl="1" name="Hohe Stiefel" slot="0"/>
+            <gegenstand anzahl="1" name="Holzfeile" slot="0"/>
+            <gegenstand anzahl="1" name="Kurzschwert" slot="0"/>
+            <gegenstand anzahl="1" name="Ledergürtel" slot="0"/>
+            <gegenstand anzahl="1" name="Lederhandschuhe" slot="0"/>
+            <gegenstand anzahl="1" name="Lederhose" slot="0"/>
+            <gegenstand anzahl="1" name="Lederrucksack (15 Stein)" slot="0"/>
+            <gegenstand anzahl="1" name="Lederweste" slot="0"/>
+            <gegenstand anzahl="1" name="Leichte Armbrust" slot="0">
+                <Fernkampfwaffe>
+                    <talente kampftalent="Armbrust"/>
+                    <talente kampftalent="Bela"/>
+                </Fernkampfwaffe>
+            </gegenstand>
+            <gegenstand anzahl="5" name="Meißel, 5 Stück" slot="0">
+                <modallgemein>
+                    <gewicht value="8.0"/>
+                    <preis value="60"/>
+                    <name value="Meißel"/>
+                </modallgemein>
+            </gegenstand>
+            <gegenstand anzahl="1" name="Metallfeile" slot="0"/>
+            <gegenstand anzahl="1" name="Schwertscheide" slot="0"/>
+            <gegenstand anzahl="1" name="Wasserschlauch (5 Schank)" slot="0"/>
+            <gegenstand anzahl="1" name="Wolldecke" slot="0"/>
+        </gegenstände>
+        <BoniWaffenlos>
+            <boniSF sf="Waffenloser Kampfstil: Mercenario" talent="Raufen"/>
+        </BoniWaffenlos>
+        <kommentare>
+            <kommentar key="Versteckte Klinge"
+                       kommentar="Raufen-AT; TP von Waffe; DK H; Kombi Gerade, Schwinger&#10;Raufen-PA: PA wie Waffe;DK H"/>
+            <kommentar key="Niederringen"
+                       kommentar="Ringen-AT (+Ansage); Beide gehen zu Boden; Angreifer INI -1W6, Verteidiger INI -2W6; Ansage erschwert Gegner-PA oder erleichtert nächste AT (auch geteilt)"/>
+            <kommentar key="Fußfeger"
+                       kommentar="Raufen-AT (+Ansage); Gegner GE-Probe sonst Sturz, INI - 2W6; Ansage erschwert PA- oder GE-Probe (auch geteilt); Ohne Beinarbeit PA +4;  Balance PA/GE -2, Herausragende Balance PA/GE -4, SF Standfest PA/GE -1"/>
+            <kommentar key="Klammer"
+                       kommentar="Ringen-AT (+Ansage); Beide: nur noch Biss, Kopfstoß, Knie, Schwitzkasten, Würgegriff; Geklammerter: +Ansage; Befreiung: Ringen-PA (+Ansage) oder KK-Probe (+KK-Diff zu Klammerndem, mindestens Ansage)"/>
+            <kommentar key="Wuchtschlag" kommentar="AT (+Ansage); Hiebwaffen, Schwerter (alle); TP (+Ansage)"/>
+            <kommentar key="Knaufschlag"
+                       kommentar="Raufen-AT (+Ansage); auch DK H wenn Waffe DK N; 1W6+2 TP(A); TP(A) (+Ansage) oder PA (+Ansage)"/>
+            <kommentar key="Schlafstörungen"
+                       kommentar="1/4 aller Nächte; Reg 1W6-1; für Erschöpfung/Überanstrengung Schlafphase nur 4h; nach Aufwachen 4h: max-AU * 3/4, Schlechte Eigenschaften +2, Talentproben +3"/>
+            <kommentar key="Sucht Vierblättrige Einbeere (10)"
+                       kommentar="5 Tage Entzug: keine Reg, Erschöpfung +3/Tag, Talentproben +3, Schlechte Eigenschaften +3; 10 Tage Entzug: wie 5 Tage, nur +5 statt +3; KO &lt;= 0: 5 TP/Tag"/>
+            <kommentar key="Meister der Improvisation"
+                       kommentar="Nur halbe Zuschläge durch fehlendes Werkzeug, wenn Zeit improv. Ersatz zu finden; halbe Erschwärnis auf ausweichende Handwerkstalente"/>
+            <kommentar key="Waffenloser Kampfstil: Mercenario"
+                       kommentar="Raufen AT/PA +1/+1; gegen Bewaffnet in DK N nur AT -3; wird AT für DK-Verkürzung pariert kein Schaden"/>
+            <kommentar key="Beinarbeit"
+                       kommentar="Raufen/Ringen-PA; PA gegen Fußfeger, Knie, Tritt, Schwanzfeger nicht +4"/>
+            <kommentar key="Kopfstoß"
+                       kommentar="Raufen-AT (+Ansage); TP(A) (+Ansage); Gegen Bewaffnete gilt erfolgreiche PA als AT (ohne TP/KK); 1W6 TP(A), mit Metallhelm 1W6+2 TP(A)"/>
+            <kommentar key="Ausdauernd" kommentar="AU +6; Erschöpfunsschwelle KO+2"/>
+            <kommentar key="Finte"
+                       kommentar="AT (+Ansage, nicht höher als TaW/AT); BE &lt;= 4; Gegner-PA (+Ansage); Kombi Wuchtschlag, u.a.; Bonuspunkte Meisterparade, Binden"/>
+            <kommentar key="Eisenarm"
+                       kommentar="Raufen-PA; erlaubt PA gegen DK &gt; H; Schaden durch Bewaffnet in TP(A); erlaubt Einsatz von Binden und Entwaffnen (SF vorrausgesetzt, +4); kein INI-Verlust gegen Bewaffnet"/>
+            <kommentar key="Wurf"
+                       kommentar="Ringen-AT +4 (+Ansage); Vorraussetzung Halten oder Griff; Bonuspunkte Halten, Griff; 1W6 TP(A) (+Ansage); Gegner INI - 2W6; Gegner am Boden (aufrappeln)"/>
+            <kommentar key="Tritt" kommentar="Raufen-AT (+Ansage); TP (+Ansage); Ohne Beinarbeit Gegner-PA +4"/>
+            <kommentar key="Schwitzkasten"
+                       kommentar="Ringen-AT; Gegner-PA wehrt ab; endet wenn AT fehlschlägt oder Gegner-PA gelingt; während Schwitzkasten (AT-1) pro AT, (Gegner-PA+1) pro PA, Schaden nur noch AU aber (1W6+1) pro AT; Verteidiger nur noch Buss, Knie, Schwanzschlag, jeweils +4; Schlangenmensch Gegner-PA -5"/>
+            <kommentar key="Griff"
+                       kommentar="Ringen-AT (+Ansage); während Griff: Gegner Manöver, AT, PA (+Ansage/2); PA (+Ansage) wehrt ab; Raufen/Ringen-AT (+Ansage/2)(keine PA, kein Schaden) löst"/>
+            <kommentar key="Betäubungsschlag"
+                       kommentar="AT (+2(Stäbe, Knüppel) / +4(stumpfe Seite Hiebwaffen) / +8(Rest)); nur Anderthalbhänder, Hiebwaffen, Kettenstäbe, Raufen (DK H-Waffe, Knauf), Säbel, Schwerter, Stäbe; Schaden in TP(A); TP(A)&gt;WS Opfer KO-Probe sonst 1W6 SR bewusstlos, TP(A)&gt;KO 1W6 SR bewusstlos"/>
+            <kommentar key="Ortskenntnis (Stadtteil/Kleinstadt)"
+                       kommentar="Meilersgrund (Gareth); bis zu +7 (Gassenwissen, Orientierung) ignorieren"/>
+            <kommentar key="Schwinger"
+                       kommentar="Raufen-AT (+Ansage); Ohne Auspendeln Gegner-PA +4; Gegner-PA (+Ansage)"/>
+            <kommentar key="Eisern" kommentar="WS +2 (KO/2 - KO - 3/2 KO), je +2 =&gt; (8 - 14 - 20)"/>
+            <kommentar key="Halten" kommentar="Ringen-AT/PA (+Ansage); nächste Gegner-Aktion (+Ansage)"/>
+            <kommentar key="Waldkundig" kommentar="siehe Dschungelkundig"/>
+            <kommentar key="Aufmerksamkeit"
+                       kommentar="nur 1 Aktion Orientierung, keine IN-Probe nötig für INI max; Überraschung, Hinterhalt -4; Passierschläge gegen Held +4; AT/PA umwandeln bis vor erster Aktion möglich"/>
+            <kommentar key="Kulturkunde (Mittelreich)" kommentar="Keine Erschwernis auf Gesellschafts-/Wissens-Proben"/>
+            <kommentar key="Dschungelkundig"
+                       kommentar="Natur/Wissen(hauptsächlich Orientierung, Wettervorhersage, Wildnisleben, Tier-, Pflanzenkunde, Sinnenschärfe (Meisterentscheid), Fährtensuchen, Fallenstellen) -3; Selten Bestimmung von Giften/KRankheiten via Heilkunde; Wettervorhersage-/Wildnis-Probe Voraussicht plötzlicher Phänomene"/>
+            <kommentar key="Scharfschütze (Armbrust)"
+                       kommentar="Fernkampf-AT (+Ansage); Bei Ansage: TP (+Ansage), Zielzeit -2 Aktionen (min 1 Aktion); Gezielte Schüsse: Aufschlag nach Liste, Aufschlag/2 Aktionen; Schnellschüsse nur +1;"/>
+            <kommentar key="Auspendeln"
+                       kommentar="Raufen/Ringen-PA; PA gegen Gerade, Hoher Tritt, Schmetterschlag, Schwinger nicht +4"/>
+            <kommentar key="Block" kommentar="Raufen-PA (+Ansage); nächste Gegner-PA (+Ansage)"/>
+            <kommentar key="Ortskenntnis (Stadtviertel oder Ort)"
+                       kommentar="Neu-Gareth (Gareth); bis zu +7 (Gassenwissen, Orientierung) ignorieren"/>
+            <kommentar key="Sprung"
+                       kommentar="Raufen-PA (+Ansage); DK H +4, DK N +2; +2 gegen Bewaffnet; INI -1W6; Bonuspunkte für nächsten Sprungtritt/Schwanzschlag; Bei Fehlschlag GE-Probe (+TP), SF Standhaft -1, Balance -2, Herausragende Balance -4, sonst Sturz"/>
+            <kommentar key="Knie"
+                       kommentar="Raufen-AT; Ohne Beinarbeit, Kreuzblock Gegner-PA +4; Schaden: Männer 1W6+2, Frauen/Achaz 1W6; TP(A) &gt; WS Rest-Aktionen verfallen, 1W3 KR kampfunfähig, INI -2W6"/>
+            <kommentar key="Schnellladen (Armbrust)" kommentar="Ladezeit * 3/4; BE &lt;= 4"/>
+            <kommentar key="Talentspezialisierung Bogenbau (Armbrust)" kommentar="TaW +2"/>
+            <kommentar key="Schmutzige Tricks"
+                       kommentar="Ringen/Raufen-AT (+Ansage, kein TP/KK); 1W6 AU- oder INI-Verlust; AU-/INI-Verlust (+Ansage) oder eigene Manöver (-Ansage) oder Gegner-Manöver (+Ansage)"/>
+            <kommentar key="Innerer Kompass"
+                       kommentar="Orientierungs-Proben (auch Wildnisleben/Gassenwissen zur Orientierung) -7 (auf See/in Wüste bis zu -14)"/>
+        </kommentare>
+        <ausrüstungen>
+            <heldenausruestung bezeichner="" bfakt="3" bfmin="3" hand="rechts" name="nkwaffe1" schild="0" set="0"
+                               slot="0" talent="Hiebwaffen" waffenname="Haumesser"/>
+            <heldenausruestung bezeichner="" bfakt="1" bfmin="1" hand="rechts" name="nkwaffe2" schild="0" set="0"
+                               slot="0" talent="Dolche" waffenname="Kurzschwert"/>
+            <heldenausruestung bezeichner="" bfakt="2" bfmin="2" hand="rechts" name="nkwaffe3" schild="0" set="0"
+                               slot="0" talent="Dolche" waffenname="Dolch"/>
+            <heldenausruestung name="fkwaffe1" set="0" slot="0" talent="Armbrust" waffenname="Leichte Armbrust"/>
+            <heldenausruestung name="fkwaffe2" set="0" slot="0" talent="Schleuder" waffenname="Fledermaus"/>
+            <heldenausruestung name="fkwaffe3" set="0" slot="0" talent="Wurfmesser" waffenname="Dolch"/>
+            <heldenausruestung name="ruestung1" ruestungsname="Lederweste" set="0" slot="0"/>
+            <heldenausruestung name="ruestung2" ruestungsname="Hohe Stiefel" set="0" slot="0"/>
+            <heldenausruestung name="ruestung3" ruestungsname="Lederhose" set="0" slot="0"/>
+            <heldenausruestung name="jagtwaffe" nummer="1" set="0"/>
+        </ausrüstungen>
+        <verbindungen/>
+        <extention/>
+        <geldboerse/>
+        <plugindata/>
+    </held>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>H/ckGUbLfyxo8PiE/xTctBPkiwc=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>XZAsP7F/i+eORupiY727BJ3kFDNdpQebhvUDRNIu36XMozYvl+hLlA==</SignatureValue>
+        <KeyInfo>
+            <KeyValue>
+                <DSAKeyValue>
+                    <P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
+                        xD7nN1kuFw==
+                    </P>
+                    <Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
+                    <G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
+                        QW5QvnlMpA==
+                    </G>
+                    <Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
+                        iExM4RWtJA==
+                    </Y>
+                </DSAKeyValue>
+            </KeyValue>
+        </KeyInfo>
+    </Signature>
+</helden>
