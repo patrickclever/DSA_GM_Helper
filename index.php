@@ -1,13 +1,14 @@
 <?php
-
+$xmlData = array();
 foreach(getCharacterSheetFilename() as $value)
 {
-    $xmldata[substr($value,0,-4)] = loadCharacterData("./chars/".$value);
+    $xmlData[substr($value,0,-4)] = loadCharacterData("./chars/".$value);
 }
 
-foreach ($xmldata as $dsaChar) {
+foreach ($xmlData as $dsaChar) {
 //    echo $dsaChar->held->attributes['name']."<br>\n";
 //    var_dump($dsaChar);
+    echo '';
 }
 
 
@@ -34,7 +35,7 @@ function getCharacterSheetFilename($dir="./chars") {
     return $results_array;
 }
 
-function getCharaterCount($chars){
+function getCharacterCount($chars){
     return count($chars);
 }
 
@@ -62,11 +63,20 @@ function loadCharacterData($file) {
 <div class="container-fluid">
     <div class="row">
         <?php
-        $characterCount = getCharaterCount($xmldata);
+        $characterCount = getCharacterCount($xmlData);
 
-        $json = json_encode($xmldata);
+        $json = json_encode($xmlData);
         $array = json_decode($json,TRUE);
 
+        foreach ($array as $hero=>$heroData){
+            echo "<div class=\"col\"><pre>";
+            print_r($heroData);
+            echo "</pre></div>";
+        }
+        /*
+         * http://www.rither.de/a/informatik/php-beispiele/arrays/zwei-arrays-miteinander-verbinden/
+         *  maybe rearrange array with this
+         */
         foreach ($array as $data){
             echo '<div class="col-md-'.(12/$characterCount).'">';
                 echo "<pre>";
