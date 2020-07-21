@@ -3,6 +3,7 @@ $xmlData = array();
 foreach(getCharacterSheetFilename() as $value)
 {
     $xmlData[substr($value,0,-4)] = loadCharacterData("./chars/".$value);
+    $dsaChars[substr($value,0,-4)] = new DsaCharacter(loadCharacterData("./chars/".$value));
 }
 
 foreach ($xmlData as $dsaChar) {
