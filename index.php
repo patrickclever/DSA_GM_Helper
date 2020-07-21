@@ -1,4 +1,5 @@
 <?php
+include('DsaCharacter.php');
 $xmlData = array();
 foreach(getCharacterSheetFilename() as $value)
 {
@@ -42,7 +43,9 @@ function getCharacterCount($chars){
 
 function loadCharacterData($file) {
     $data  =simplexml_load_file($file) or die("Failed to load");
-    return $data;
+    $json = json_encode($data);
+    $array = json_decode($json,TRUE);
+    return $array;
 }
 ?>
 
@@ -70,10 +73,15 @@ function loadCharacterData($file) {
         $array = json_decode($json,TRUE);
 
         foreach ($array as $hero=>$heroData){
-            echo "<div class=\"col\"><pre>";
-            print_r($heroData);
-            echo "</pre></div>";
+//            echo "<div id=\"debug\" class=\"col\"><pre>\n";
+//            print_r($heroData['held']['@attributes']['name']);
+//            echo "\n</pre></div>\n";
+            echo '';
         }
+//        var_dump($xmlData['MegelanBlaubart']);
+        foreach($dsaChars as $dsaChar=>$held){
+            echo $held->name."\n";
+        };
         /*
          * http://www.rither.de/a/informatik/php-beispiele/arrays/zwei-arrays-miteinander-verbinden/
          *  maybe rearrange array with this
@@ -81,7 +89,7 @@ function loadCharacterData($file) {
         foreach ($array as $data){
             echo '<div class="col-md-'.(12/$characterCount).'">';
                 echo "<pre>";
-                print_r($data['held']['basis']['geschlecht']['@attributes']['name']);
+//                print_r($data['held']['basis']['geschlecht']['@attributes']['name']);
                 echo "</pre>";
             echo '</div>';
         }

@@ -7,6 +7,6 @@ class DsaCharacter
 
     function __construct($heroXmlData)
     {
-        $this->name = $heroXmlData->held->attributes['name'];
+        $this->name = $heroXmlData['held']['@attributes']['name'];
     }
 }
