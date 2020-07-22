@@ -44,8 +44,7 @@ function getCharacterCount($chars){
 function loadCharacterData($file) {
     $data  =simplexml_load_file($file) or die("Failed to load");
     $json = json_encode($data);
-    $array = json_decode($json,TRUE);
-    return $array;
+    return json_decode($json, true);
 }
 ?>
 
@@ -66,7 +65,7 @@ function loadCharacterData($file) {
 
 <div class="container-fluid">
     <div class="row">
-        <?php
+<!--        --><?php
         $characterCount = getCharacterCount($xmlData);
 
         $json = json_encode($xmlData);
@@ -82,10 +81,10 @@ function loadCharacterData($file) {
         foreach($dsaChars as $dsaChar=>$held){
 //            echo '<div class="col-md-'.(12/$characterCount).'">';
             echo '<div class="col-12">';
-                echo $held->name."<br>\n";
-                echo $held->statMU['name'].": ".$held->statMU['value'];
+//                echo $held->name."<br>\n";
+//                echo $held->statMU['name'].": ".$held->statMU['value'];
                 echo "<pre>";
-                    var_dump($held->vorteile);
+                    var_dump($held->adv);
                 echo "</pre>";
             echo '</div>';
             break;
@@ -101,21 +100,9 @@ function loadCharacterData($file) {
                 echo "</pre>";
             echo '</div>';
         }
-        ?>
+//        ?>
     </div>
-    <div class="row">
-        <?php
-        // Create DOM from URL or file
-        $doc = DOMDocument::loadHTMLFile('character_data/AnchasbreBradruch.html');
-        echo $doc->saveHTML();
-        $tags = $doc->getElementsByTagName('td');
 
-
-        foreach ($tags as $tag) {
-            echo $tag->getAttribute('class').' | '.$tag->nodeValue."\n";
-        }
-        ?>
-    </div>
 </div>
 
 <!-- Optional JavaScript -->

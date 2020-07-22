@@ -4,7 +4,7 @@
 class DsaCharacter
 {
     public $name;
-    public $statMU = array(); 
+    public $statMU = array();
     public $statGE = array();
     public $statFF = array();
     public $statKO = array();
@@ -22,7 +22,7 @@ class DsaCharacter
     public $statAT = array();
     public $statPA = array();
     public $statFK = array();
-    public $vorteile = array();
+    public $adv = array();
 
     function __construct($heroXmlData)
     {
@@ -63,11 +63,20 @@ class DsaCharacter
         $this->statPA['value'] = $heroXmlData['held']['eigenschaften']['eigenschaft'][16]['@attributes']['value'];
         $this->statFK['name'] = $heroXmlData['held']['eigenschaften']['eigenschaft'][17]['@attributes']['name'];
         $this->statFK['value'] = $heroXmlData['held']['eigenschaften']['eigenschaft'][17]['@attributes']['value'];
-//        $this->vorteile = $heroXmlData['held']['vt']['vorteil']['0']['@attributes'];
-        foreach ($heroXmlData['held']['vt'] as $key=>$value){
-            $this->vorteile['Vorteil'] = $value[$key]['@attributes']['name'];
-            $this->vorteile['Wert'] = $value[$key]['@attributes']['value'];
-        }
 
+        foreach ($heroXmlData['held']['vt'] as $vorteile) {
+            foreach($vorteile as $vorteil){
+
+                if($vorteil['@attributes']['value']) {
+                    $tmp['Vorteil'] = $vorteil['@attributes']['name'];
+                    $tmp['Wert'] = $vorteil['@attributes']['value'];
+                    $this->adv[] = $tmp;
+                }else{
+                    $tmp['Vorteil'] = $vorteil['@attributes']['name'];
+                    unset($tmp['Wert']);
+                    $this->adv[] = $tmp;
+                }
+            }
+        }
     }
 }
