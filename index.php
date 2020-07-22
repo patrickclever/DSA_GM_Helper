@@ -95,6 +95,19 @@ function loadCharacterData($file) {
         }
         ?>
     </div>
+    <div class="row">
+        <?php
+        // Create DOM from URL or file
+        $doc = DOMDocument::loadHTMLFile('character_data/AnchasbreBradruch.html');
+        echo $doc->saveHTML();
+        $tags = $doc->getElementsByTagName('td');
+
+
+        foreach ($tags as $tag) {
+            echo $tag->getAttribute('class').' | '.$tag->nodeValue."\n";
+        }
+        ?>
+    </div>
 </div>
 
 <!-- Optional JavaScript -->
