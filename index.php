@@ -59,7 +59,7 @@ function loadCharacterData($file) {
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Meisterbrief Helfer</title>
 </head>
 <body>
 <h1>Hello, world!</h1>
@@ -80,7 +80,15 @@ function loadCharacterData($file) {
         }
 //        var_dump($xmlData['MegelanBlaubart']);
         foreach($dsaChars as $dsaChar=>$held){
-            echo $held->name."\n";
+//            echo '<div class="col-md-'.(12/$characterCount).'">';
+            echo '<div class="col-12">';
+                echo $held->name."<br>\n";
+                echo $held->statMU['name'].": ".$held->statMU['value'];
+                echo "<pre>";
+                    var_dump($held->vorteile);
+                echo "</pre>";
+            echo '</div>';
+            break;
         };
         /*
          * http://www.rither.de/a/informatik/php-beispiele/arrays/zwei-arrays-miteinander-verbinden/
